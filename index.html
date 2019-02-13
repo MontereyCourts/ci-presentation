@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/league.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <center><img data-src="img/seal.png" width="300" style="margin: 15px 0;background: none; border: none; box-shadow: none;" class="no-border"></center>
+                <h3>Continuous Delivery</h3>
+                <h5>@ Monterey Superior Court</h5>
+            </section>
+            <section>
+                <h2>Why CD/CI/C*?</h2>
+                <ul>
+                    <li>Automation</li>
+                    <li>Reliability</li>
+                    <li>Rapid</li>
+                    <li>Testing</li>
+                    <li>Rollback</li>
+                    <li>Better Product</li>
+                </ul>
+            </section>
+            <section>
+                <section>
+                    <h2>Technology</h2>
+                    <ul>
+                        <li>Source Control: Git (BitBucket)</li>
+                        <li>Build Server: Team City </li>
+                        <li>Deployment: Octopus Deploy</li>
+                    </ul>
+
+                    <div class="box-placeholder" style="border: solid 10px #d6cdcd;margin-top:15px;">
+
+                        <img src="img/bitbucket.png" style="width:100px;margin: 15px 0;background: none; border: none; box-shadow: none;" class="no-border">
+                        <img src="img/teamcity.png" style="width:100px;margin: 15px 0;background: none; border: none; box-shadow: none;" class="no-border">
+                        <img src="img/octopus.png" style="width:100px;margin: 15px 0;background: none; border: none; box-shadow: none;" class="no-border">
+
+                    </div>
+                </section>
+                <section>
+                    <h2>Product Links</h2>
+                    <ul>
+                        <li><a href="https://www.atlassian.com/software/bitbucket" target="_blank">https://www.atlassian.com/software/bitbucket</a></li>
+                        <li><a href="https://www.jetbrains.com/teamcity/" target="_blank">https://www.jetbrains.com/teamcity/</a></li>
+                        <li><a href="https://octopus.com/" target="_blank">https://octopus.com/</a></li>
+                    </ul>
+                </section>
+
+            </section>
+            <section>
+                <h2>The Flow</h2>
+                <div class="box-placeholder" style="border: solid 10px #d6cdcd;">
+                    <center><img data-src="img/cd.jpg" width="640" style="margin: 15px 0;background: none; border: none; box-shadow: none;" class="no-border"></center>
+                </div>
+            </section>
+            <section>
+                <h2>Before</h2>
+                <ul>
+                    <li>Check In Code</li>
+                    <li>Run Tests, Coverage, etc...</li>
+                    <li>Build Code</li>
+                    <li>Back up old build</li>
+                    <li>Manually copy new files to server</li>
+                    <li>Restart web server</li>
+                    <li>Test site on staging</li>
+                    <li>..Do all over again for production</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Using CD</h2>
+                <ul>
+                    <li>Check In Code</li>
+                    <li>Test site on staging</li>
+                    <li>Promote to production</li>
+                </ul>
+            </section>
+            <section>
+                <h2>DEMO!</h2>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.min.js"></script>
+    <script>
+        Reveal.initialize();
+    </script>
+</body>
+
+</html>

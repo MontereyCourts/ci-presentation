@@ -1,0 +1,19 @@
+body{
+    background:url('img/bg.jpg');
+    background-position: 95% 5%;
+}
+
+.no-border{
+    margin: 15px 0;
+    background: none; 
+    border: none; 
+    box-shadow: none;
+}
+
+.box-placeholder{
+    background-color:#fff;opacity:.90;border-radius: 10px;
+}
+
+.reveal h3, .reveal h1, .reveal h2, .reveal h4, .reveal h5  {
+    text-shadow: 2px 2px 4px #005584;
+}

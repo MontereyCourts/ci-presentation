@@ -1,0 +1,21 @@
+{
+  "name": "continuous-delivery",
+  "version": "1.0.0",
+  "description": "d![alt text](seal.png \"Monterey Courts\")",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": ""
+}
